@@ -1,16 +1,124 @@
-# React + Vite
+# Still
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Still** is not a productivity app.
+It is a commitment system.
 
-Currently, two official plugins are available:
+Most tools help you *manage time*.
+Still forces you to **face your intentions**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🧠 Core Idea
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+You don’t fail because you lack time.
+You fail because you break alignment between:
 
-## Expanding the ESLint configuration
+> what you said you would do
+> vs
+> what you actually do
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Still tracks that gap — and reflects it back to you.
+
+---
+
+## ⚙️ Features
+
+* ⏱️ **Focused Sessions**
+  Set a task and a duration. Enter full-screen focus mode.
+
+* 📊 **Integrity Score**
+  Measures how often you complete what you start.
+
+* 🔥 **Streak System**
+  Builds consistency — or resets when you break.
+
+* 🧾 **Break Pattern Tracking**
+  Records when you quit and how early.
+
+* 🧠 **Behavioral Feedback**
+  Messages reinforce identity, not motivation.
+
+---
+
+## 🖥️ Tech Stack
+
+* React (Hooks)
+* Bootstrap (UI)
+* LocalStorage (persistence)
+
+---
+
+## 🚀 Getting Started
+
+Clone the repo:
+
+```bash
+git clone https://github.com/psjdeveloper/still
+cd still
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the app:
+
+```bash
+npm run dev
+```
+
+---
+
+## 🎯 How to Use
+
+1. Enter your task
+2. Set time (in minutes)
+3. Start session
+4. Either:
+
+   * Finish → builds integrity
+   * Quit → recorded as a break
+
+No shortcuts. No pause.
+Only alignment or drift.
+
+---
+
+## ⚠️ Philosophy
+
+Still is built on a simple principle:
+
+> Every time you quit, you train inconsistency.
+> Every time you finish, you build identity.
+
+This is not about productivity.
+This is about **who you become**.
+
+---
+
+## 🔮 Future Ideas
+
+* Deep focus mode (distraction blocking)
+* Weekly behavioral analytics
+* Identity-based insights
+* Minimal ambient UI
+
+---
+
+## 📌 Why "Still"?
+
+Because clarity doesn’t come from doing more.
+
+It comes when you stop —
+and face what you avoid.
+
+---
+
+## 🧑‍💻 Author
+
+Built by Prasoon Jadon
+Exploring systems of behavior, identity, and expectation.
+
+---
