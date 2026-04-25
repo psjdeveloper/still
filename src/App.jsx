@@ -64,7 +64,7 @@ function App() {
 
       {/* Header */}
       <div className="text-center mb-4">
-        <h1 className="fw-bold">Focus Tracker</h1>
+        <h1 className="fw-bold"> STILL</h1>
       </div>
 
       {/* Stats Cards */}
